@@ -175,36 +175,6 @@ Je suis **Yassine Frikha**, étudiant en 3ème année de Licence en **Informatiq
 
 ---
 
-## 💻 Installation et Démarrage
-
-### Prérequis
-- [Node.js](https://nodejs.org/) (version 18+ recommandée)
-- npm ou yarn
-
-### 1. Cloner le repository
-```bash
-git clone https://github.com/YassineFrikha03/Portfolio-Yassine-Frikha.git
-cd Portfolio-Yassine-Frikha
-```
-
-### 2. Installer les dépendances
-```bash
-npm install
-```
-
-### 3. Lancer le serveur de développement
-```bash
-npm run dev
-```
-Le site sera accessible localement à l'adresse : `http://localhost:5160` (ou le port indiqué par Vite).
-
-### 4. Compiler pour la production
-```bash
-npm run build
-```
-Les fichiers prêts pour le déploiement seront générés dans le dossier `dist/`.
-
----
 
 ## 📁 Structure du Projet
 
