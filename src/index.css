@@ -179,7 +179,11 @@ section {
 }
 
 @media (max-width: 1024px) {
-  .grid-4 { grid-template-columns: repeat(3, 1fr); }
+  .grid-3, .grid-4 { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
 }
 
 /* Contact Form Styling */
@@ -302,18 +306,35 @@ section {
   color: #ef4444;
 }
 
-@media (max-width: 768px) {
-  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
-  .section-title { font-size: 2rem; }
-  section { padding: 3rem 0; }
-  
+@media (max-width: 900px) {
   .contact-container {
     flex-direction: column;
+    gap: 2rem;
   }
+}
+
+@media (max-width: 768px) {
+  .section-title { font-size: 2rem; }
+  .section-description { font-size: 1rem; margin-bottom: 2rem; }
+  section { padding: 3.5rem 0; }
+  .container { padding: 0 1.25rem; }
+}
+
+@media (max-width: 640px) {
   .form-row {
     flex-direction: column;
     gap: 0;
   }
+  .form-submit-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .form-submit-row .btn-primary {
+    width: 100%;
+  }
+  .section-title { font-size: 1.75rem; }
+  section { padding: 2.75rem 0; }
+  .container { padding: 0 1rem; }
 }
 
 /* Footer Styling */
