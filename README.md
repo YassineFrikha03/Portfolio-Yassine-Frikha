@@ -56,7 +56,6 @@ Je suis **Yassine Frikha**, étudiant en 3ème année de Licence en **Informatiq
 | **SECCC Plumbing** | JavaScript, Web, Responsive | Site web vitrine moderne pour une société d'équipement, chauffage central et climatisation. |
 | **CSS Store** | E-commerce, JavaScript, Web | Boutique en ligne officielle pour le Club Sportif Sfaxien (maillots, équipements, panier d'achat). |
 | **Dark Wolf Team (DWT)** | React, Node.js, JavaScript, CSS | Plateforme pour une équipe E-Sport (membres, diffusion live, boutique personnalisée, dashboard admin). |
-| **SEPTEO Stock** | ASP.NET Core, MVC, C# | Solution de gestion de stock et de produits développée lors de mon stage chez SEPTEO Tunisie. |
 
 ---
 
@@ -73,37 +72,6 @@ Je suis **Yassine Frikha**, étudiant en 3ème année de Licence en **Informatiq
 - **CSS3 / Variables CSS** — Design system personnalisé sans dépendances CSS lourdes
 - **Oxlint** — Linter JavaScript ultra-rapide basé sur Rust
 - **Git & GitHub** — Versioning et hébergement du code source
-
----
-
-## 💻 Installation et Démarrage
-
-### Prérequis
-- [Node.js](https://nodejs.org/) (version 18+ recommandée)
-- npm ou yarn
-
-### 1. Cloner le repository
-```bash
-git clone https://github.com/YassineFrikha03/Portfolio-Yassine-Frikha.git
-cd Portfolio-Yassine-Frikha
-```
-
-### 2. Installer les dépendances
-```bash
-npm install
-```
-
-### 3. Lancer le serveur de développement
-```bash
-npm run dev
-```
-Le site sera accessible localement à l'adresse : `http://localhost:5160` (ou le port indiqué par Vite).
-
-### 4. Compiler pour la production
-```bash
-npm run build
-```
-Les fichiers prêts pour le déploiement seront générés dans le dossier `dist/`.
 
 ---
 
