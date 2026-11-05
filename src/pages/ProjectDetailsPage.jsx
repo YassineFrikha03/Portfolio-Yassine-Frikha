@@ -10,13 +10,6 @@ import zink4 from '../assets/zink/4.png';
 import zink5 from '../assets/zink/5.png';
 import zink6 from '../assets/zink/6.png';
 
-// Images Septeo
-import septeo1 from '../assets/septeo/1.png';
-import septeo2 from '../assets/septeo/2.png';
-import septeo3 from '../assets/septeo/3.png';
-import septeo4 from '../assets/septeo/4.png';
-import septeo5 from '../assets/septeo/5.png';
-
 // Images Tech Store
 import tech1 from '../assets/tech/1.jpg';
 import tech2 from '../assets/tech/2.jpg';
@@ -50,10 +43,6 @@ const projectsData = {
   'zink-project': {
     tags: ['JavaScript', 'Full-stack', '3D'],
     images: [zink1, zink2, zink3, zink4, zink5, zink6]
-  },
-  'septeo-stock': {
-    tags: ['ASP.NET Core', 'MVC', 'HTML'],
-    images: [septeo1, septeo2, septeo3, septeo4, septeo5]
   },
   'tech-store': {
     tags: ['HTML', 'C#', 'Framework .NET 8.0', 'SQL Server', 'E-commerce'],
