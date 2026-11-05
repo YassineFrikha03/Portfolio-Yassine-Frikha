@@ -1,0 +1,153 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis",
+    "subtitle": "Étudiant en informatique de gestion",
+    "description": "Passionné par le développement, les nouvelles technologies et la création de solutions qui ont un impact réel. Bienvenue sur mon portfolio !",
+    "viewProjects": "Voir mes projets",
+    "contactMe": "Me contacter",
+    "stats": {
+      "years": "Années d'études",
+      "yearsValue": "3ème année",
+      "yearsDesc": "Licence informatique de gestion (PFE)",
+      "projects": "Projets réalisés",
+      "projectsValue": "5+",
+      "projectsDesc": "(personnels & académiques)",
+      "tech": "Technologies",
+      "techValue": "10+",
+      "techDesc": "(front, back, bases de données...)",
+      "goal": "Objectif",
+      "goalValue": "Devenir un ingénieur",
+      "goalDesc": "et construire de grands projets"
+    }
+  },
+  "about": {
+    "subtitle": "À PROPOS DE MOI",
+    "title": "Qui suis-je ?",
+    "p1": "Je suis Yassine Frikha, étudiant en 3ème année licence informatique de gestion (PFE) à la FSEGT. Passionné par le développement et les systèmes d'information, je cherche à apprendre, à progresser et à mettre mes compétences au service de projets concrets.",
+    "p2": "J'ai déjà effectué un stage chez SEPTEO Tunisie, ce qui m'a permis de travailler sur des solutions de gestion de produits. Je suis une personne motivée, curieuse et j'aime relever de nouveaux défis dans le développement web et logiciel.",
+    "values": {
+      "perseverance": "Persévérance",
+      "perseveranceDesc": "Toujours aller plus loin",
+      "curiosity": "Curiosité",
+      "curiosityDesc": "Apprendre chaque jour",
+      "team": "Esprit d'équipe",
+      "teamDesc": "Avancer ensemble",
+      "rigor": "Rigueur",
+      "rigorDesc": "La qualité avant tout"
+    }
+  },
+  "skills": {
+    "subtitle": "MES COMPÉTENCES",
+    "title": "Technologies & Outils",
+    "description": "Voici les technologies et outils que j'utilise au quotidien.",
+    "servicesTitle": "Mes services",
+    "servicesDescription": "Ce que je peux vous apporter",
+    "services": {
+      "web": "Développement web",
+      "webDesc": "Sites web modernes, rapides et responsives.",
+      "java": "Applications Java / C#",
+      "javaDesc": "Solutions robustes et évolutives pour vos besoins.",
+      "db": "Gestion de bases de données",
+      "dbDesc": "Conception et optimisation de bases de données."
+    },
+    "more": "En savoir plus"
+  },
+  "projects": {
+    "subtitle": "MES PROJETS",
+    "title": "Quelques réalisations",
+    "description": "Voici une sélection de mes projets, personnels et académiques, qui reflètent mes compétences et ma passion pour le développement.",
+    "filters": {
+      "all": "Tous",
+      "web": "Web",
+      "java": "Java",
+      "reactnode": "React/Node",
+      "other": "Autres"
+    },
+    "back": "Retour aux projets",
+    "visitSite": "Consulter le site en direct",
+    "features": "Fonctionnalités principales",
+    "screenshots": "Captures d'écran",
+    "items": {
+      "zink-project": {
+        "title": "Zink Project",
+        "desc": "Application web full-stack de restaurant burger avec visualisation 3D.",
+        "f1": "Visualisation 3D",
+        "f2": "Gestion des commandes",
+        "f3": "Interface utilisateur interactive",
+        "f4": "Panier en temps réel"
+      },
+      "tech-store": {
+        "title": "Tech Store",
+        "desc": "Plateforme e-commerce moderne dédiée au matériel informatique.",
+        "f1": "Tableau de bord administrateur (TechAdmin)",
+        "f2": "Gestion du catalogue et des catégories",
+        "f3": "Suivi des commandes et des clients en temps réel",
+        "f4": "Statistiques et graphiques d'évolution des ventes"
+      },
+      "seccc-project": {
+        "title": "SECCC Plumbing",
+        "desc": "Site web moderne et vitrine pour la Société d'Équipement Chauffage Central et Climatisation.",
+        "f1": "Présentation des domaines d'intervention (Plomberie, Chauffage, Climatisation)",
+        "f2": "Formulaire interactif de demande de devis en ligne",
+        "f3": "Galerie et portfolio des réalisations professionnelles",
+        "f4": "Interface fluide, responsive et optimisée"
+      },
+      "css-store": {
+        "title": "CSS Store (Club Sportif Sfaxien)",
+        "desc": "Boutique en ligne officielle pour le Club Sportif Sfaxien : vente de maillots, textiles et accessoires.",
+        "f1": "Catalogue complet des maillots et articles officiels",
+        "f2": "Système de filtrage par catégorie, prix et taille",
+        "f3": "Espace supporter avec authentification et gestion de profil",
+        "f4": "Panier d'achat en temps réel et commande en ligne"
+      },
+      "dwt-project": {
+        "title": "DWT",
+        "desc": "Application d'une team E-SPORT Dark Wolf Team",
+        "f1": "Site web vitrine",
+        "f2": "Présentation des membres",
+        "f3": "Espaces des joueurs",
+        "f4": "Actualités de l'équipe",
+        "f5": "Diffusion des matches live",
+        "f6": "Custom design pour les produits",
+        "f7": "AdminDashboard Controle Tout les sections de site du A jusqu'a Z"
+      }
+    }
+  },
+  "contact": {
+    "subtitle": "ME CONTACTER",
+    "title": "Discutons de votre projet",
+    "description": "N'hésitez pas à me contacter pour toute opportunité ou question. Je vous répondrai dans les plus brefs délais.",
+    "phone": "Téléphone",
+    "location": "Localisation",
+    "form": {
+      "name": "Nom complet",
+      "namePlaceholder": "Votre nom",
+      "email": "Adresse email",
+      "emailPlaceholder": "votre.email@exemple.com",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Le sujet de votre message",
+      "message": "Message",
+      "messagePlaceholder": "Votre message détaillé ici...",
+      "send": "Envoyer le message"
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "purposeTitle": "À propos",
+    "purposeDesc": "Ce portfolio a été conçu pour présenter mes compétences, mes projets professionnels et académiques, ainsi que ma passion pour le développement web et logiciel.",
+    "linksTitle": "Liens Rapides",
+    "servicesTitle": "Mes Services",
+    "availability": "🟢 Disponible pour de nouveaux projets",
+    "newsletterTitle": "Newsletter",
+    "newsletterDesc": "Recevez mes dernières actualités et projets.",
+    "newsletterPlaceholder": "Votre adresse email",
+    "newsletterBtn": "S'abonner"
+  }
+}

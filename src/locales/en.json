@@ -1,0 +1,153 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I am",
+    "subtitle": "Management Information Systems Student",
+    "description": "Passionate about development, new technologies, and building solutions that have a real impact. Welcome to my portfolio!",
+    "viewProjects": "View my projects",
+    "contactMe": "Contact me",
+    "stats": {
+      "years": "Years of study",
+      "yearsValue": "3rd year",
+      "yearsDesc": "Management IT License (PFE)",
+      "projects": "Completed Projects",
+      "projectsValue": "5+",
+      "projectsDesc": "(personal & academic)",
+      "tech": "Technologies",
+      "techValue": "10+",
+      "techDesc": "(front, back, databases...)",
+      "goal": "Goal",
+      "goalValue": "Become an engineer",
+      "goalDesc": "and build great projects"
+    }
+  },
+  "about": {
+    "subtitle": "ABOUT ME",
+    "title": "Who am I?",
+    "p1": "I am Yassine Frikha, a 3rd year student (PFE) in Management Information Systems at FSEGT. Passionate about development and information systems, I seek to learn, progress, and put my skills to use on real projects.",
+    "p2": "I have already completed an internship at SEPTEO Tunisia, which allowed me to work on product management solutions. I am a motivated and curious person who loves taking on new challenges in web and software development.",
+    "values": {
+      "perseverance": "Perseverance",
+      "perseveranceDesc": "Always go further",
+      "curiosity": "Curiosity",
+      "curiosityDesc": "Learn every day",
+      "team": "Team Spirit",
+      "teamDesc": "Move forward together",
+      "rigor": "Rigor",
+      "rigorDesc": "Quality above all"
+    }
+  },
+  "skills": {
+    "subtitle": "MY SKILLS",
+    "title": "Technologies & Tools",
+    "description": "Here are the technologies and tools I use on a daily basis.",
+    "servicesTitle": "My services",
+    "servicesDescription": "What I can offer you",
+    "services": {
+      "web": "Web Development",
+      "webDesc": "Modern, fast, and responsive websites.",
+      "java": "Java / C# Applications",
+      "javaDesc": "Robust and scalable solutions for your needs.",
+      "db": "Database Management",
+      "dbDesc": "Database design and optimization."
+    },
+    "more": "Learn more"
+  },
+  "projects": {
+    "subtitle": "MY PROJECTS",
+    "title": "Some achievements",
+    "description": "Here is a selection of my personal and academic projects that reflect my skills and passion for development.",
+    "filters": {
+      "all": "All",
+      "web": "Web",
+      "java": "Java",
+      "reactnode": "React/Node",
+      "other": "Other"
+    },
+    "back": "Back to projects",
+    "visitSite": "Visit live website",
+    "features": "Main features",
+    "screenshots": "Screenshots",
+    "items": {
+      "zink-project": {
+        "title": "Zink Project",
+        "desc": "Full-stack burger restaurant web application with 3D visualization.",
+        "f1": "3D Visualization",
+        "f2": "Order management",
+        "f3": "Interactive user interface",
+        "f4": "Real-time cart"
+      },
+      "tech-store": {
+        "title": "Tech Store",
+        "desc": "Modern e-commerce platform dedicated to computer hardware.",
+        "f1": "Administrator dashboard (TechAdmin)",
+        "f2": "Catalog and category management",
+        "f3": "Real-time order and customer tracking",
+        "f4": "Sales statistics and trend charts"
+      },
+      "seccc-project": {
+        "title": "SECCC Plumbing",
+        "desc": "Modern showcase website for Société d'Équipement Chauffage Central et Climatisation.",
+        "f1": "Showcase of services (Plumbing, Heating, Air Conditioning)",
+        "f2": "Interactive online quote request form",
+        "f3": "Portfolio gallery of completed projects",
+        "f4": "Responsive, smooth, and optimized user experience"
+      },
+      "css-store": {
+        "title": "CSS Store (Club Sportif Sfaxien)",
+        "desc": "Official e-commerce boutique for Club Sportif Sfaxien: jerseys, apparel, and accessories.",
+        "f1": "Complete catalog of official jerseys and team gear",
+        "f2": "Filtering system by category, price, and size",
+        "f3": "Supporter portal with user authentication and profile management",
+        "f4": "Real-time shopping cart and online checkout"
+      },
+      "dwt-project": {
+        "title": "Dark Wolf Team",
+        "desc": "Application for an E-SPORT team Dark Wolf Team",
+        "f1": "Showcase website",
+        "f2": "Members showcase",
+        "f3": "Players portal",
+        "f4": "Team news & updates",
+        "f5": "Live match streaming",
+        "f6": "Custom product design",
+        "f7": "Admin dashboard managing all website sections from A to Z"
+      }
+    }
+  },
+  "contact": {
+    "subtitle": "CONTACT ME",
+    "title": "Let's discuss your project",
+    "description": "Feel free to reach out for any opportunity or question. I will get back to you as soon as possible.",
+    "phone": "Phone",
+    "location": "Location",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Your name",
+      "email": "Email Address",
+      "emailPlaceholder": "your.email@example.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "Subject of your message",
+      "message": "Message",
+      "messagePlaceholder": "Your detailed message here...",
+      "send": "Send message"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "purposeTitle": "About",
+    "purposeDesc": "This portfolio was created to showcase my skills, professional and academic projects, and my passion for web and software development.",
+    "linksTitle": "Quick Links",
+    "servicesTitle": "My Services",
+    "availability": "🟢 Available for new projects",
+    "newsletterTitle": "Newsletter",
+    "newsletterDesc": "Get my latest news and projects.",
+    "newsletterPlaceholder": "Your email address",
+    "newsletterBtn": "Subscribe"
+  }
+}
