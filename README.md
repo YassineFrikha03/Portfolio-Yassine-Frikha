@@ -6,6 +6,8 @@
   ![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white)
   ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
   ![i18next](https://img.shields.io/badge/i18n-FR%20%7C%20EN-26A69A?style=for-the-badge&logo=i18next&logoColor=white)
+  ![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+  ![Nginx](https://img.shields.io/badge/Nginx-Alpine-009639?style=for-the-badge&logo=nginx&logoColor=white)
   ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
   <p align="center">
@@ -68,10 +70,38 @@ Je suis **Yassine Frikha**, étudiant en 3ème année de Licence en **Informatiq
 - **Lucide React** — Pack d'icônes vectorielles modernes et légères
 - **i18next & react-i18next** — Gestion des traductions multilingues
 
-### **Outils & Qualité**
+### **Outils & Déploiement**
+- **Docker & Docker Compose** — Conteneurisation multi-stage optimisée
+- **Nginx (Alpine)** — Serveur web haute performance avec compression gzip et routage SPA
 - **CSS3 / Variables CSS** — Design system personnalisé sans dépendances CSS lourdes
 - **Oxlint** — Linter JavaScript ultra-rapide basé sur Rust
 - **Git & GitHub** — Versioning et hébergement du code source
+
+---
+
+## 🐳 Déploiement avec Docker
+
+Le projet inclut une configuration Docker multi-stage légère et ultra-rapide basée sur **Nginx Alpine**.
+
+### Option A — Avec Docker Compose (Recommandé)
+```bash
+docker compose up -d --build
+```
+L'application sera immédiatement accessible sur : **`http://localhost:8080`**
+
+Pour arrêter le conteneur :
+```bash
+docker compose down
+```
+
+### Option B — Avec le Dockerfile
+```bash
+# 1. Construire l'image
+docker build -t portfolio-yassine .
+
+# 2. Lancer le conteneur
+docker run -d -p 8080:80 --name portfolio-app portfolio-yassine
+```
 
 ---
 
@@ -168,10 +198,38 @@ Je suis **Yassine Frikha**, étudiant en 3ème année de Licence en **Informatiq
 - **Lucide React** — Pack d'icônes vectorielles modernes et légères
 - **i18next & react-i18next** — Gestion des traductions multilingues
 
-### **Outils & Qualité**
+### **Outils & Déploiement**
+- **Docker & Docker Compose** — Conteneurisation multi-stage optimisée
+- **Nginx (Alpine)** — Serveur web haute performance avec compression gzip et routage SPA
 - **CSS3 / Variables CSS** — Design system personnalisé sans dépendances CSS lourdes
 - **Oxlint** — Linter JavaScript ultra-rapide basé sur Rust
 - **Git & GitHub** — Versioning et hébergement du code source
+
+---
+
+## 🐳 Déploiement avec Docker
+
+Le projet inclut une configuration Docker multi-stage légère et ultra-rapide basée sur **Nginx Alpine**.
+
+### Option A — Avec Docker Compose (Recommandé)
+```bash
+docker compose up -d --build
+```
+L'application sera immédiatement accessible sur : **`http://localhost:8080`**
+
+Pour arrêter le conteneur :
+```bash
+docker compose down
+```
+
+### Option B — Avec le Dockerfile
+```bash
+# 1. Construire l'image
+docker build -t portfolio-yassine .
+
+# 2. Lancer le conteneur
+docker run -d -p 8080:80 --name portfolio-app portfolio-yassine
+```
 
 ---
 
