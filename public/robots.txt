@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yassine-frikha.netlify.app/sitemap.xml
-
+Sitemap: https://yassine-frikha-portfolio.netlify.app/sitemap.xml
